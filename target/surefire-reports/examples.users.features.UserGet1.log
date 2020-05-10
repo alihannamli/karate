@@ -1,6 +1,7 @@
-23:43:52.429 not a js function or feature file: read('classpath:karate-config.js') - [type: NULL, value: null]
-23:43:52.438 not a js function or feature file: read('classpath:karate-config.js') - [type: NULL, value: null]
-23:43:53.898 [print] {
+00:41:15.028 not a js function or feature file: read('classpath:karate-config.js') - [type: NULL, value: null]
+00:41:15.214 not a js function or feature file: read('classpath:karate-config.js') - [type: NULL, value: null]
+00:41:15.291 not a js function or feature file: read('classpath:karate-config.js') - [type: NULL, value: null]
+00:41:15.400 [print] {
   "page": 2,
   "per_page": 6,
   "total": 12,
@@ -56,8 +57,7 @@
   }
 }
 
-23:43:53.908 not a js function or feature file: read('classpath:karate-config.js') - [type: NULL, value: null]
-23:43:53.913 [print] 955
-23:43:54.644 [print]
-23:43:54.654 not a js function or feature file: read('classpath:karate-config.js') - [type: NULL, value: null]
-23:43:55.018 [print] page number is :  2
+00:41:15.414 not a js function or feature file: read('classpath:karate-config.js') - [type: NULL, value: null]
+00:41:15.553 [print] 333
+00:41:15.699 [print] page number is :  2
+00:41:15.720 [print]

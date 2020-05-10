@@ -1,5 +1,5 @@
-23:43:53.912 not a js function or feature file: read('classpath:karate-config.js') - [type: NULL, value: null]
-23:43:54.294 [print] {
+00:41:13.083 not a js function or feature file: read('classpath:karate-config.js') - [type: NULL, value: null]
+00:41:14.400 [print] {
   "data": {
     "id": 2,
     "email": "janet.weaver@reqres.in",
@@ -14,8 +14,8 @@
   }
 }
 
-23:43:54.310 not a js function or feature file: read('classpath:karate-config.js') - [type: NULL, value: null]
-23:43:54.750 [print] {
+00:41:14.421 not a js function or feature file: read('classpath:karate-config.js') - [type: NULL, value: null]
+00:41:15.014 [print] {
   "data": {
     "id": 3,
     "email": "emma.wong@reqres.in",

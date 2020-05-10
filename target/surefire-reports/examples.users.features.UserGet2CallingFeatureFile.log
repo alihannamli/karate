@@ -1,5 +1,5 @@
-23:43:52.441 not a js function or feature file: read('classpath:karate-config.js') - [type: NULL, value: null]
-23:43:55.195 [print] result ...... :  {
+00:41:13.082 not a js function or feature file: read('classpath:karate-config.js') - [type: NULL, value: null]
+00:41:20.101 [print] result ...... :  {
   "__arg": null,
   "expectedResponse": {
     "data": {
@@ -17,7 +17,7 @@
   },
   "responseHeaders": {
     "Date": [
-      "Sun, 10 May 2020 04:43:51 GMT"
+      "Sun, 10 May 2020 05:41:16 GMT"
     ],
     "Content-Type": [
       "application/json; charset=utf-8"
@@ -29,7 +29,7 @@
       "keep-alive"
     ],
     "Set-Cookie": [
-      "__cfduid=de4ff2293b0cdbce5e4d4e4cc02a446a41589085831; expires=Tue, 09-Jun-20 04:43:51 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure"
+      "__cfduid=d83a991c2c287e52b14f3ddd952da4afa1589089276; expires=Tue, 09-Jun-20 05:41:16 GMT; path=/; domain=.reqres.in; HttpOnly; SameSite=Lax; Secure"
     ],
     "X-Powered-By": [
       "Express"
@@ -50,7 +50,7 @@
       "HIT"
     ],
     "Age": [
-      "371"
+      "3816"
     ],
     "Expect-CT": [
       "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
@@ -62,14 +62,14 @@
       "cloudflare"
     ],
     "CF-RAY": [
-      "59110070e93c0388-ORD"
+      "591154876b2ae1de-ORD"
     ],
     "cf-request-id": [
-      "029e7e9a95000003889c226200000001"
+      "029eb328a00000e1de7619a200000001"
     ]
   },
-  "feature": com.intuit.karate.core.Feature@2fdc02d6,
-  "responseTime": 289,
+  "feature": com.intuit.karate.core.Feature@610c9703,
+  "responseTime": 1240,
   "response": {
     "page": 2,
     "per_page": 6,
@@ -125,20 +125,20 @@
       "text": "A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."
     }
   },
-  "requestTimeStamp": 1589089434748,
+  "requestTimeStamp": 1589092877928,
   "responseStatus": 200,
   "__loop": -1,
   "responseCookies": {
     "__cfduid": {
       "name": "__cfduid",
-      "value": "de4ff2293b0cdbce5e4d4e4cc02a446a41589085831",
+      "value": "d83a991c2c287e52b14f3ddd952da4afa1589089276",
       "domain": "reqres.in",
       "path": "/",
-      "expires": "1591677831000",
+      "expires": "1591681276000",
       "persistent": "true",
       "secure": "true"
     }
   }
 }
 
-23:43:55.217 [print] firstname value : ....  
+00:41:20.118 [print] firstname value : ....  

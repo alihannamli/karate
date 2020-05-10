@@ -1,5 +1,5 @@
-<testsuite failures="0" name="examples/users/features/UserGet2CallingFeatureFile.feature" skipped="0" tests="1" time="2.773014">
-  <testcase classname="examples.users.features.UserGet2CallingFeatureFile" name="request user 2 details" time="2.773014">
+<testsuite failures="0" name="examples/users/features/UserGet2CallingFeatureFile.feature" skipped="0" tests="1" time="7.027592">
+  <testcase classname="examples.users.features.UserGet2CallingFeatureFile" name="request user 2 details" time="7.027592">
     <system-out>* def expectedResponse = read ('../jsonFiles/response.json') .............. passed
 * def feature = read('UserGet1.feature') .................................. passed
 * def result = call feature ............................................... passed

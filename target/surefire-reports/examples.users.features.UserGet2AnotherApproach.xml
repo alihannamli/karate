@@ -1,5 +1,5 @@
-<testsuite failures="0" name="examples/users/features/UserGet2AnotherApproach.feature" skipped="0" tests="2" time="0.822511">
-  <testcase classname="examples.users.features.UserGet2AnotherApproach" name="request get for seocnd option and verify" time="0.383413">
+<testsuite failures="0" name="examples/users/features/UserGet2AnotherApproach.feature" skipped="0" tests="2" time="1.90013">
+  <testcase classname="examples.users.features.UserGet2AnotherApproach" name="request get for seocnd option and verify" time="1.306436">
     <system-out>* def expectedResponse = read('../jsonFiles/response.json') ............... passed
 * def expectedResponse3 = read('../jsonFiles/response3.json') ............. passed
 * url 'https://reqres.in/api/users/2' ..................................... passed
@@ -8,7 +8,7 @@
 * print response .......................................................... passed
 * match response == expectedResponse ...................................... passed</system-out>
   </testcase>
-  <testcase classname="examples.users.features.UserGet2AnotherApproach" name="request get for third option and verify" time="0.439098">
+  <testcase classname="examples.users.features.UserGet2AnotherApproach" name="request get for third option and verify" time="0.593693">
     <system-out>* def expectedResponse = read('../jsonFiles/response.json') ............... passed
 * def expectedResponse3 = read('../jsonFiles/response3.json') ............. passed
 * url 'https://reqres.in/api/users/2' ..................................... passed
