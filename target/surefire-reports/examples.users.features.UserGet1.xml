@@ -1,0 +1,47 @@
+<testsuite failures="0" name="examples/users/features/UserGet1.feature" skipped="0" tests="4" time="4.072768">
+  <testcase classname="examples.users.features.UserGet1" name="printing response body to console" time="1.456521">
+    <system-out>* url 'https://reqres.in/api/users?page=2' ................................ passed
+* method get .............................................................. passed
+* print response .......................................................... passed
+* status 200 .............................................................. passed</system-out>
+  </testcase>
+  <testcase classname="examples.users.features.UserGet1" name="verifying response body is smaller than 999ms" time="1.517139">
+    <system-out>* url 'https://reqres.in/api/users?page=2' ................................ passed
+* method get .............................................................. passed
+* print response .......................................................... passed
+* status 200 .............................................................. passed
+* url 'https://reqres.in/api/users?page=2' ................................ passed
+* method get .............................................................. passed
+* print responseTime ...................................................... passed
+* assert responseTime &lt; 999 ............................................... passed</system-out>
+  </testcase>
+  <testcase classname="examples.users.features.UserGet1" name="getting 1st id  of data" time="0.734764">
+    <system-out>* url 'https://reqres.in/api/users?page=2' ................................ passed
+* method get .............................................................. passed
+* print response .......................................................... passed
+* status 200 .............................................................. passed
+* url 'https://reqres.in/api/users?page=2' ................................ passed
+* method get .............................................................. passed
+* print responseTime ...................................................... passed
+* assert responseTime &lt; 999 ............................................... passed
+* url 'https://reqres.in/api/users?page=2' ................................ passed
+* method get .............................................................. passed
+* print response.data.id[1] ............................................... passed</system-out>
+  </testcase>
+  <testcase classname="examples.users.features.UserGet1" name="getting initial values from json body" time="0.364344">
+    <system-out>* url 'https://reqres.in/api/users?page=2' ................................ passed
+* method get .............................................................. passed
+* print response .......................................................... passed
+* status 200 .............................................................. passed
+* url 'https://reqres.in/api/users?page=2' ................................ passed
+* method get .............................................................. passed
+* print responseTime ...................................................... passed
+* assert responseTime &lt; 999 ............................................... passed
+* url 'https://reqres.in/api/users?page=2' ................................ passed
+* method get .............................................................. passed
+* print response.data.id[1] ............................................... passed
+* url 'https://reqres.in/api/users?page=2' ................................ passed
+* method get .............................................................. passed
+* print 'page number is : ', response.page ................................ passed</system-out>
+  </testcase>
+</testsuite>

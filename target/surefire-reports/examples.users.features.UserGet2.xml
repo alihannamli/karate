@@ -1,0 +1,45 @@
+<testsuite failures="0" name="examples/users/features/UserGet2.feature" skipped="0" tests="4" time="3.916856">
+  <testcase classname="examples.users.features.UserGet2" name="verifying status code is 200" time="1.463304">
+    <system-out>Given url 'https://reqres.in/api/users/2' ................................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed</system-out>
+  </testcase>
+  <testcase classname="examples.users.features.UserGet2" name="printing and comparing json body" time="1.470893">
+    <system-out>Given url 'https://reqres.in/api/users/2' ................................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+Given url 'https://reqres.in/api/users/2' ................................. passed
+When method get ........................................................... passed
+Then print response ....................................................... passed
+Then match response == {"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https:\/\/s3.amazonaws.com\/uifaces\/faces\/twitter\/josephstein\/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http:\/\/statuscode.org\/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}} . passed</system-out>
+  </testcase>
+  <testcase classname="examples.users.features.UserGet2" name="verifying response with read keyword" time="0.526703">
+    <system-out>Given url 'https://reqres.in/api/users/2' ................................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+Given url 'https://reqres.in/api/users/2' ................................. passed
+When method get ........................................................... passed
+Then print response ....................................................... passed
+Then match response == {"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https:\/\/s3.amazonaws.com\/uifaces\/faces\/twitter\/josephstein\/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http:\/\/statuscode.org\/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}} . passed
+Given url 'https://reqres.in/api/users/2' ................................. passed
+When method get ........................................................... passed
+* def expectedBody = read('../jsonFiles/response.json') ................... passed
+* match response == expectedBody .......................................... passed</system-out>
+  </testcase>
+  <testcase classname="examples.users.features.UserGet2" name="verifying a key value is not null" time="0.455956">
+    <system-out>Given url 'https://reqres.in/api/users/2' ................................. passed
+When method get ........................................................... passed
+Then status 200 ........................................................... passed
+Given url 'https://reqres.in/api/users/2' ................................. passed
+When method get ........................................................... passed
+Then print response ....................................................... passed
+Then match response == {"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https:\/\/s3.amazonaws.com\/uifaces\/faces\/twitter\/josephstein\/128.jpg"},"ad":{"company":"StatusCode Weekly","url":"http:\/\/statuscode.org\/","text":"A weekly newsletter focusing on software development, infrastructure, the server, performance, and the stack end of things."}} . passed
+Given url 'https://reqres.in/api/users/2' ................................. passed
+When method get ........................................................... passed
+* def expectedBody = read('../jsonFiles/response.json') ................... passed
+* match response == expectedBody .......................................... passed
+Given url 'https://reqres.in/api/users/2' ................................. passed
+When method get ........................................................... passed
+* match response.data.avatar != null ...................................... passed</system-out>
+  </testcase>
+</testsuite>
